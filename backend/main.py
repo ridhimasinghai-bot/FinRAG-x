@@ -1,6 +1,6 @@
 from typing import Optional
 
-import fitz  # PyMuPDF
+import pymupdf as fitz
 from fastapi import Depends, FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
